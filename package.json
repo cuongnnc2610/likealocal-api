@@ -1,0 +1,71 @@
+{
+  "name": "likealocal",
+  "version": "1.0.0",
+  "description": "This is the back-end of LikeALocal System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.16.3",
+    "npm": "^6.14.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "CuongNN",
+  "license": "ISC",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.2",
+    "@paypal/payouts-sdk": "^1.0.0",
+    "async": "^3.2.0",
+    "aws-sdk": "^2.761.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "extend": "^3.0.2",
+    "formidable": "^1.2.2",
+    "joi": "^14.3.1",
+    "joi-date-extensions": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "method-override": "^3.0.0",
+    "mssql": "^6.2.0",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.4",
+    "paypal-rest-sdk": "^1.8.1",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sendgrid": "^5.2.3",
+    "sequelize": "^5.21.10",
+    "sequelize-cli": "^5.5.1",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-model-validator": "^3.0.18",
+    "swagger-ui-express": "^4.1.4",
+    "uuid": "^8.1.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-size": "^3.0.0",
+    "handlebars": "^4.7.6",
+    "tedious": "^8.3.0"
+  }
+}

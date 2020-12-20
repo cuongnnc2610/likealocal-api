@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <style>
+        #body {
+            background-color: #EEE;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        img {
+            width: 100px;
+            margin: 20px auto;
+        }
+        #box {
+            background-color: #FFF;
+            width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        #code {
+            margin: 30px auto;
+            display: inline-block;
+            background-color: #2a9df4;
+            text-align: center;
+            padding: 10px 20px;
+            color: #FFF;
+            font-size: 25px;
+            border-radius: 5px;
+            font-weight: 600;
+            letter-spacing: 3px;
+        }
+    </style>
+</head>
+<body>
+<div id="body">
+    <div id="box">
+        <h1>{{sub_title}}</h1>
+        <p>{{content}}</p>
+        <div id="code">
+            {{randomString}}
+        </div>
+        <p>{{note}}</p>
+    </div>
+</div>
+</body>
+
+</html>
